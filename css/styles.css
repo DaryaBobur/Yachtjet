@@ -1,16 +1,15 @@
 :root {
   --primary-bg-color: #0e1823;
   --accent-color: #1b414b;
-  --primary-text-color: #fbfbfb;
+  --primary-color: #fbfbfb;
   --secondary-text-color: rgba(251, 251, 251, 0.7);
   --text-color: #040306;
   --description-text-color: rgba(251, 251, 251, 1);
   --placeholder-color: rgba(251, 251, 251, 0.4);
   --bg-color-btn: rgba(251, 251, 251, 0.3);
-  --btn-border-color:  rgba(251, 251, 251, 0.35)
+  --btn-border-color: rgba(251, 251, 251, 0.35);
   --text-color-desc: rgba(4, 3, 6, 0.4);
   --bgc-btn-header: rgba(27, 65, 75, 0.5);
-
 }
 
 h1,
@@ -24,14 +23,18 @@ ul {
   margin-top: 0;
   margin-bottom: 0;
 }
+ul {
+  list-style: none;
+}
 
 body {
-    color: var(--primary-text-color);
+  color: var(--primary-color);
   background-color: var(--primary-bg-color);
+  letter-spacing: 0%;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .inter-text {
@@ -47,4 +50,34 @@ a {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: -3%;
+}
+
+.header {
+  background-color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+  border-radius: 8px;
+}
+
+.link {
+  font-size: 9px;
+  line-height: 1.33;
+  background-color: var(--bgc-btn-header);
+  padding: 10px 42px;
+}
+
+.link:hover,
+.link:focus {
+  background-color: var(--accent-color);
+}
+
+.socials-link {
+  fill: var(--accent-color);
+}
+
+.hero-title {
+  font-weight: 500;
+  font-size: 70px;
+  line-height: 1;
+  letter-spacing: -2%;
+  text-align: center;
 }
