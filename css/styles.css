@@ -1,7 +1,50 @@
+:root {
+  --primary-bg-color: #0e1823;
+  --accent-color: #1b414b;
+  --primary-text-color: #fbfbfb;
+  --secondary-text-color: rgba(251, 251, 251, 0.7);
+  --text-color: #040306;
+  --description-text-color: rgba(251, 251, 251, 1);
+  --placeholder-color: rgba(251, 251, 251, 0.4);
+  --bg-color-btn: rgba(251, 251, 251, 0.3);
+  --btn-border-color:  rgba(251, 251, 251, 0.35)
+  --text-color-desc: rgba(4, 3, 6, 0.4);
+  --bgc-btn-header: rgba(27, 65, 75, 0.5);
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+body {
+    color: var(--primary-text-color);
+  background-color: var(--primary-bg-color);
+}
+
+a {
+    text-decoration: none;
+}
 
 .inter-text {
-    font-family: "Inter", serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
-  }
+  font-family: "Inter", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.logo {
+  color: var(--accent-color);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: -3%;
+}
