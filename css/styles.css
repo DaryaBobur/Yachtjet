@@ -81,3 +81,35 @@ a {
   letter-spacing: -2%;
   text-align: center;
 }
+
+.hero-description {
+
+font-weight: 300;
+font-size: 16px;
+line-height: 1.38;
+text-align: center;
+}
+
+.hero-btn {
+font-weight: 500;
+font-size: 18px;
+line-height: 1.11;
+letter-spacing: -2%;
+color: var(--primary-color);
+background-color: var(--accent-color);
+border: 0;
+border-radius: 15px;
+padding: 16px 40px;
+margin-top: 48px;
+}
+
+.about {
+  background-color: var(--primary-color);
+}
+.about-title {
+font-weight: 500;
+font-size: 48px;
+line-height: 1;
+letter-spacing: -2%;
+color: var(--accent-color);
+}
