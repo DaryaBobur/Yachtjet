@@ -30,7 +30,7 @@ ul {
 body {
   color: var(--primary-color);
   background-color: var(--primary-bg-color);
-  letter-spacing: 0%;
+  letter-spacing: -0.02em;
 }
 
 a {
@@ -49,7 +49,7 @@ a {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
-  letter-spacing: -3%;
+  letter-spacing: -0.03em;
 }
 
 .header {
@@ -63,6 +63,7 @@ a {
   line-height: 1.33;
   background-color: var(--bgc-btn-header);
   padding: 10px 42px;
+  letter-spacing: 0em;
 }
 
 .link:hover,
@@ -78,38 +79,80 @@ a {
   font-weight: 500;
   font-size: 70px;
   line-height: 1;
-  letter-spacing: -2%;
   text-align: center;
 }
 
 .hero-description {
-
-font-weight: 300;
-font-size: 16px;
-line-height: 1.38;
-text-align: center;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 1.38;
+  text-align: center;
+  margin-top: 24px;
 }
 
 .hero-btn {
-font-weight: 500;
-font-size: 18px;
-line-height: 1.11;
-letter-spacing: -2%;
-color: var(--primary-color);
-background-color: var(--accent-color);
-border: 0;
-border-radius: 15px;
-padding: 16px 40px;
-margin-top: 48px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.11;
+  color: var(--primary-color);
+  background-color: var(--accent-color);
+  border: 0;
+  border-radius: 15px;
+  padding: 16px 40px;
+  margin-top: 48px;
 }
 
-.about {
+.features {
   background-color: var(--primary-color);
 }
-.about-title {
-font-weight: 500;
-font-size: 48px;
-line-height: 1;
-letter-spacing: -2%;
-color: var(--accent-color);
+.features-title {
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 1;
+  color: var(--accent-color);
+  padding-top: 50px;
+}
+
+.features-subtitle {
+  font-size: 23px;
+  line-height: 1;
+
+  color: var(--accent-color);
+}
+
+.features-desc {
+  font-size: 13px;
+  line-height: 1.15;
+  color: var(--text-color);
+  opacity: 0.4;
+  padding-bottom: 100px;
+}
+.features-img {
+  display: block;
+}
+
+.products-title {
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 1;
+  color: var(--primary-color);
+  text-align: center;
+  margin-top: 150px;
+}
+
+.products-list {
+  margin-top: 75px;
+}
+
+.products-item {
+  background-color: var(--primary-color);
+  width: 392px;
+  padding: 16px 16px 32px 16px;
+  border-radius: 24px;
+}
+
+.products-img {
+  display: block;
+  border-radius: 24px;
+
 }
