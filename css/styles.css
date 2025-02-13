@@ -66,6 +66,7 @@ a {
   background-color: var(--bgc-btn-header);
   padding: 10px 42px;
   letter-spacing: 0em;
+  border-radius: 8px;
 }
 
 .link:hover,
@@ -107,6 +108,12 @@ a {
   border-radius: 15px;
   padding: 16px 40px;
   margin-top: 48px;
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+  color: var(--accent-color);
+  background-color: var(--primary-color);
 }
 
 .features {
@@ -188,20 +195,26 @@ a {
 }
 
 .products-param {
-font-size: 14px;
-line-height: 16.52px;
-letter-spacing: 0.03em;
-color: var(--text-color);
+  font-size: 14px;
+  line-height: 16.52px;
+  letter-spacing: 0.03em;
+  color: var(--text-color);
 }
 
 .products-btn {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 19.8px;
+  letter-spacing: -0.02em;
+  padding: 16px 40px;
+  border: 1px solid var(--btn-border-color);
+  border-radius: 15px;
+  color: var(--primary-color);
+  background-color: transparent;
+}
 
-font-weight: 500;
-font-size: 18px;
-line-height: 19.8px;
-letter-spacing: -0.02em;
-padding: 16px 40px;
-border: 1px solid var(--btn-border-color);
-border-radius: 15px;
-background-color: transparent;
+.products-btn:hover,
+.products-btn:focus {
+  color: var(--accent-color);
+  background-color: var(--primary-color);
 }
