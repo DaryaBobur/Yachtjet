@@ -361,3 +361,7 @@ letter-spacing: 0.03em;
 text-align: center;
 
 }
+
+.footer-text > .text {
+  margin-left: 32px;
+}
