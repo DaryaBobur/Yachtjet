@@ -304,3 +304,60 @@ a {
   text-align: center;
   color: var(--text-color-desc);
 }
+.container {
+  background-color: var(--accent-color);
+  border-radius: 24px 24px 0 0;
+  padding: 50px 75px 20px;
+}
+.logo-footer {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: -0.03em;
+  color: inherit;
+}
+
+.logo-footer:hover,
+.logo-footer:focus {
+  color: var(--socials-btn-footer);
+}
+
+.footer-link {
+  color: inherit;
+  font-size: 9px;
+  line-height: 1.33;
+  letter-spacing: 0;
+  padding: 15px 25px 15px 24px;
+  background-color: var(--bg-color-btn);
+  border-radius: 8px;
+}
+
+.footer-link:hover,
+.footer-link:focus {
+  color: var(--accent-color);
+  background-color: var(--primary-color);
+}
+
+.footer-socials {
+  fill: var(--primary-color);
+}
+
+.footer-socials:hover, .footer-socials:focus {
+  fill: var(--socials-btn-footer);
+}
+
+.footer-title {
+font-size: 32px;
+line-height: 1;
+text-align: center;
+margin-bottom: 99px;
+}
+
+.footer-text {
+  color: var(--placeholder-color);
+font-size: 14px;
+line-height: 1.18;
+letter-spacing: 0.03em;
+text-align: center;
+
+}
