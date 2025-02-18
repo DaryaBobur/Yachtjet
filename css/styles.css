@@ -24,6 +24,7 @@ p,
 ul {
   margin-top: 0;
   margin-bottom: 0;
+  padding: 0;
 }
 ul {
   list-style: none;
@@ -65,11 +66,18 @@ logo:focus {
 }
 
 .header {
+  padding: 0 50px;
+}
+
+.header-container {
+  max-width: 1240px;
+  margin-left: auto;
+  margin-right: auto;
   background-color: var(--primary-color);
   border: 1px solid var(--primary-color);
   border-radius: 8px;
+  
 }
-
 .link {
   display: inline-block;
   font-size: 9px;
@@ -97,18 +105,20 @@ logo:focus {
   fill: var(--socials-btn-header);
 }
 
+.hero {
+  text-align: center;
+}
+
 .hero-title {
   font-weight: 500;
   font-size: 70px;
   line-height: 1;
-  text-align: center;
 }
 
 .hero-description {
   font-weight: 300;
   font-size: 16px;
   line-height: 1.38;
-  text-align: center;
   margin-top: 24px;
 }
 
