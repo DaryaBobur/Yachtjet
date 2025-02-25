@@ -53,6 +53,7 @@ a {
 }
 
 .logo {
+  margin-right: 375px;
   color: var(--accent-color);
   font-weight: 500;
   font-size: 20px;
@@ -64,13 +65,24 @@ a {
 logo:focus {
   color: var(--socials-btn-header);
 }
+.navigation {
+    display: flex;
+    align-items: center;
+}
+
+.site-nav {
+  display: flex;
+}
 
 .header {
   padding: 0 50px;
 }
 
 .header-container {
+  display: flex;
+  justify-content: space-between;
   width: 1240px;
+  padding: 0 30px;
   margin-left: auto;
   margin-right: auto;
   background-color: var(--primary-color);
@@ -94,6 +106,10 @@ logo:focus {
 .link:hover,
 .link:focus {
   background-color: var(--accent-color);
+}
+
+.socials-list {
+  display: flex;
 }
 
 .socials-link {
