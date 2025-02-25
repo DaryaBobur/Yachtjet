@@ -74,6 +74,14 @@ logo:focus {
   display: flex;
 }
 
+.site-nav > .item:not(:last-child) {
+  margin-right: 4px;
+}
+
+.site-nav > .item {
+  margin: 4px 0;
+}
+
 .header {
   padding: 0 50px;
 }
@@ -110,6 +118,7 @@ logo:focus {
 
 .socials-list {
   display: flex;
+  align-items: center;
 }
 
 .socials-link {
