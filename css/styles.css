@@ -129,21 +129,28 @@ logo:focus {
   fill: var(--socials-btn-header);
 }
 
-.hero {
+.hero-wrap {
   text-align: center;
 }
 
 .hero-title {
+
+  max-width: 950px;
+  margin-right: auto;
+  margin-left: auto;
   font-weight: 500;
   font-size: 70px;
   line-height: 1;
+  margin-bottom: 24px;
 }
 
 .hero-description {
+  max-width: 575px;
+  margin: 0 auto 48px;
   font-weight: 300;
   font-size: 16px;
   line-height: 1.38;
-  margin-top: 24px;
+
 }
 
 .hero-btn {
@@ -155,7 +162,7 @@ logo:focus {
   border: 0;
   border-radius: 15px;
   padding: 16px 40px;
-  margin-top: 48px;
+  
 }
 
 .hero-btn:hover,
@@ -211,13 +218,23 @@ logo:focus {
 .products {
   padding: 150px 100px;
 }
+.products-wrap {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 16px;
+}
 
 .products-title {
-  margin-bottom: 75px;
+  max-width: 704px;
+  margin: 0 auto 75px;
   font-weight: 500;
   font-size: 48px;
   line-height: 1;
   text-align: center;
+}
+
+.products-list {
+  display: flex;
 }
 
 .products-item {
@@ -227,9 +244,14 @@ logo:focus {
   border-radius: 24px;
 }
 
+.products-item:not(:last-child) {
+  margin-right: 32px;
+}
+
 .products-img {
   display: block;
   border-radius: 24px;
+  margin-bottom: 32px;
 }
 
 .products-subtitle {
