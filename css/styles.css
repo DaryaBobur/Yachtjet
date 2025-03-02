@@ -326,6 +326,8 @@ display: flex;
 
 
 .advantages-list {
+  display: flex;
+  max-width: 768px;
   background-color: var(--accent-color);
   border-radius: 24px;
   margin-right: 32px;
