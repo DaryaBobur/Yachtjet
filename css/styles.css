@@ -325,10 +325,10 @@ display: flex;
 
 .advantages-list {
   display: flex;
+  flex-direction: row;
   flex-wrap: wrap;
   padding: 90px 50px;
-  margin-left: -32px;
-  margin-bottom: -32px;
+  gap: 44px 32px;
   max-width: 768px;
   background-color: var(--accent-color);
   border-radius: 24px;
@@ -336,9 +336,7 @@ display: flex;
 }
 
 .advantages-item {
-  margin-left: 32px;
-  margin-bottom: 32px;
-  flex-basis: calc((100% - 4* 16px) / 2);
+  width: calc((100% - 32px) / 2);
 }
 
 .advantages-subtitle {
