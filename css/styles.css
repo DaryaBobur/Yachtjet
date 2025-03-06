@@ -320,7 +320,9 @@ logo:focus {
 }
 
 .advantages-wrap {
-display: flex;
+  display: flex;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .advantages-list {
