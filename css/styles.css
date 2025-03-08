@@ -357,17 +357,32 @@ logo:focus {
   border-radius: 24px;
 }
 
+.rent {
+  padding: 150px 100px 150px 50px;
+}
+
+.rent-wrap {
+  display: flex;
+}
+
+.form-wrap {
+  display: block;
+}
+
 .rent-img {
+  margin-right: 50px;
   border-radius: 24px;
 }
 
 .rent-title {
+  margin-bottom: 50px;
   font-weight: 500;
   font-size: 48px;
   line-height: 1;
 }
 
 .rent-btn {
+  margin-top: 50px;
   font-weight: 500;
   font-size: 18px;
   line-height: 1.11;
