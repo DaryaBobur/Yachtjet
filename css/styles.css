@@ -479,6 +479,8 @@ margin-bottom: 24px;
 
 .wrap {
   display: flex;
+  margin-bottom: 96px;
+  justify-content: space-between;
 }
 
 .logo-footer {
@@ -492,6 +494,22 @@ margin-bottom: 24px;
 .logo-footer:hover,
 .logo-footer:focus {
   color: var(--socials-btn-footer);
+}
+
+.footer-nav {
+  display: flex;
+}
+
+.nav-item:not(:last-child){
+  margin-right: 4px;
+}
+
+.socials-list {
+  display: flex;
+}
+
+.socials-item:not(:last-child) {
+  margin-right: 8px;
 }
 
 .footer-link {
