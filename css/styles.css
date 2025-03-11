@@ -541,6 +541,9 @@ margin-bottom: 24px;
 }
 
 .footer-title {
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 695px;
   font-size: 32px;
   line-height: 1;
   text-align: center;
