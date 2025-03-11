@@ -466,11 +466,17 @@ margin-bottom: 24px;
   text-align: center;
   color: var(--text-color-desc);
 }
-.wrap {
+
+.footer-wrap {
+  max-width: 1440px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 0 25px;
   background-color: var(--accent-color);
   border-radius: 24px 24px 0 0;
   padding: 50px 75px 20px;
 }
+
 .logo-footer {
   font-weight: 500;
   font-size: 20px;
