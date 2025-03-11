@@ -477,6 +477,10 @@ margin-bottom: 24px;
   padding: 50px 75px 20px;
 }
 
+.wrap {
+  display: flex;
+}
+
 .logo-footer {
   font-weight: 500;
   font-size: 20px;
