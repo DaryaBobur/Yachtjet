@@ -137,7 +137,10 @@ logo:focus {
   fill: var(--socials-btn-header);
 }
 
-.hero-wrap {
+.hero {
+  max-width: 1400px;
+  margin-right: auto;
+  margin-left: auto;
   text-align: center;
 }
 
