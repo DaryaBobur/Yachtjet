@@ -83,8 +83,6 @@ logo:focus {
   margin-right: 4px;
 }
 
-
-
 .header {
   padding: 0 50px;
 }
@@ -411,7 +409,7 @@ logo:focus {
   cursor: pointer;
 
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-  color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .rent-btn:hover,
@@ -549,7 +547,7 @@ logo:focus {
   cursor: pointer;
 
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-  color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-link:hover,
