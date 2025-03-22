@@ -181,15 +181,13 @@ logo:focus {
 }
 
 .features {
-  position: relative;
   padding: 0 50px;
 }
 
 
 .features-wrap {
   display: flex;
-  padding: 50px 50px 0 50px;
-  height: 675px;
+  padding: 50px 50px 100px 50px;
   background-color: var(--primary-color);
   border-top-left-radius: 24px;
   border-top-right-radius: 24px;
@@ -224,11 +222,8 @@ logo:focus {
 
 .features-img {
   display: block;
-  position: absolute;
-  top: 378px;
-  left: auto;
 }
-}
+
 
 .products {
   padding: 150px 100px;
