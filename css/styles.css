@@ -184,6 +184,13 @@ logo:focus {
   padding: 0 50px;
 }
 
+.features-thumb {
+  max-width: 1340px;
+  background-color: var(--primary-color);
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 27px;
+}
 
 .features-wrap {
   display: flex;
