@@ -136,9 +136,13 @@ logo:focus {
 
 .hero {
   max-width: 1400px;
+  height: 800px;
   margin-right: auto;
   margin-left: auto;
   text-align: center;
+  background-image: url(../images/hero.jpg);
+  background-position: center;
+  background-size: cover;
 }
 
 .hero-title {
