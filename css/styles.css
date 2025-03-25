@@ -137,6 +137,7 @@ logo:focus {
 .hero {
   max-width: 1400px;
   height: 800px;
+  padding: 235px 0 215px;
   margin-right: auto;
   margin-left: auto;
   text-align: center;
