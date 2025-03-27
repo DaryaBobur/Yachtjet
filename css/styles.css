@@ -407,6 +407,8 @@ logo:focus {
 
 .rent-wrap {
   display: flex;
+  padding: 0 100px 0 50px;
+  justify-content: center;
 }
 
 .form-wrap {
