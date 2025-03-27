@@ -193,6 +193,8 @@ logo:focus {
 }
 
 .features {
+  position: relative;
+  bottom: 45px;
   padding: 0 50px;
 }
 
@@ -433,7 +435,12 @@ logo:focus {
   line-height: 1;
 }
 
+.form {
+display: block;
+}
+
 .rent-btn {
+  min-width: 194px;
   margin-top: 50px;
   font-weight: 500;
   font-size: 18px;
