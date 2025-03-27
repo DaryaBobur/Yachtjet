@@ -84,7 +84,13 @@ logo:focus {
   margin-right: 4px;
 }
 
+.header-wrap {
+  position: relative;
+}
+
 .header {
+  position: absolute;
+  top: 32px;
   padding: 0 50px;
 }
 
