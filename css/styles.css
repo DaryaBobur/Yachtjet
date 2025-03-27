@@ -454,6 +454,8 @@ logo:focus {
 .team-wrap {
   max-width: 1440px;
   padding: 0 100px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .team-title {
