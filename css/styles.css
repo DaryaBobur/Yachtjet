@@ -436,8 +436,13 @@ logo:focus {
 }
 
 .form {
-display: block;
+  width: 472px;
 }
+
+.form-input {
+  padding: 18px;
+  border-radius: 12px;
+  width: 100%;
 
 .rent-btn {
   min-width: 194px;
