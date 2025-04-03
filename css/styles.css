@@ -13,6 +13,7 @@
   --socials-btn-header: #062730;
   --socials-btn-footer: rgba(251, 251, 251, 0.8);
   --color-line: rgba(251, 251, 251, 0.1);
+  --color-input: rgba(251, 251, 251, 0.2);
 }
 
 h1,
@@ -440,10 +441,21 @@ logo:focus {
 }
 
 .form-input {
+
+  font-size: 14px;
+  line-height: 1.29;
+
   padding: 18px;
   border-radius: 12px;
   width: 100%;
+  background-color: transparent;
+  border: 1px solid var(--color-input);
 }
+
+.form-field:not(:last-child) {
+  margin-bottom: 18px;
+}
+
 .rent-btn {
   min-width: 194px;
   margin-top: 50px;
