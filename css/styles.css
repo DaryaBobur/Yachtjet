@@ -440,7 +440,8 @@ logo:focus {
   width: 472px;
 }
 
-.form-input, .comment {
+.form-input,
+.comment {
   font-size: 14px;
   line-height: 1.29;
 
@@ -448,6 +449,7 @@ logo:focus {
   border-radius: 12px;
   width: 100%;
   background-color: transparent;
+  color: var(--primary-color);
   border: 1px solid var(--color-input);
 }
 
@@ -457,7 +459,8 @@ logo:focus {
 
 .comment {
   resize: none;
-height: 116px;
+  height: 116px;
+
 }
 
 .rent-btn {
