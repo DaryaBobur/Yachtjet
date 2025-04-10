@@ -72,6 +72,7 @@ a {
 logo:focus {
   color: var(--socials-btn-header);
 }
+
 .navigation {
   display: flex;
   align-items: center;
@@ -82,7 +83,7 @@ logo:focus {
   margin: 4px 0px;
 }
 
-.site-nav > .item:not(:last-child) {
+.site-nav__item:not(:last-child) {
   margin-right: 4px;
 }
 
@@ -108,7 +109,7 @@ logo:focus {
   border-radius: 8px;
 }
 
-.link {
+.site-nav__link {
   display: inline-block;
   font-size: 9px;
   line-height: 1;
@@ -123,8 +124,8 @@ logo:focus {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.link:hover,
-.link:focus {
+.site-nav__link:hover,
+.site-nav__link:focus {
   background-color: var(--accent-color);
 }
 
@@ -133,13 +134,17 @@ logo:focus {
   align-items: center;
 }
 
-.socials-link {
+.socials-list__item:not(:last-child) {
+  margin-right: 8px;
+}
+
+.socials-list__link {
   fill: var(--accent-color);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.socials-link:hover,
-.socials-link:focus {
+.socials-list__link:hover,
+.socials-list__link:focus {
   fill: var(--socials-btn-header);
 }
 
@@ -155,7 +160,7 @@ logo:focus {
   background-size: cover;
 }
 
-.hero-title {
+.hero__title {
   max-width: 950px;
   margin-right: auto;
   margin-left: auto;
@@ -455,7 +460,8 @@ logo:focus {
   outline: none;
 }
 
-.form-input:focus, .comment:focus {
+.form-input:focus,
+.comment:focus {
   border: 1px solid var(--border-color);
 }
 
