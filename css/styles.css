@@ -97,7 +97,7 @@ logo:focus {
   padding: 0 50px;
 }
 
-.header-container {
+.header__container {
   display: flex;
   justify-content: space-between;
   width: 1240px;
@@ -170,7 +170,7 @@ logo:focus {
   margin-bottom: 24px;
 }
 
-.hero-description {
+.hero__description {
   max-width: 575px;
   margin: 0 auto 48px;
   font-weight: 300;
@@ -178,7 +178,7 @@ logo:focus {
   line-height: 1.38;
 }
 
-.hero-btn {
+.hero__btn {
   font-weight: 500;
   font-size: 18px;
   line-height: 1.11;
@@ -205,7 +205,7 @@ logo:focus {
   padding: 0 50px;
 }
 
-.features-thumb {
+.features__thumb {
   max-width: 1340px;
   background-color: var(--primary-color);
   margin-left: auto;
@@ -213,7 +213,7 @@ logo:focus {
   border-radius: 27px;
 }
 
-.features-wrap {
+.features__wrap {
   display: flex;
   padding: 50px 50px 100px 50px;
   background-color: var(--primary-color);
@@ -221,11 +221,11 @@ logo:focus {
   border-top-right-radius: 24px;
 }
 
-.features-text {
+.features__text {
   max-width: 404px;
 }
 
-.features-title {
+.features__title {
   margin-right: 299px;
   font-weight: 500;
   font-size: 48px;
@@ -233,7 +233,7 @@ logo:focus {
   color: var(--accent-color);
 }
 
-.features-subtitle {
+.features__subtitle {
   margin-bottom: 20px;
   font-size: 23px;
   line-height: 1;
