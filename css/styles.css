@@ -241,14 +241,14 @@ logo:focus {
   color: var(--accent-color);
 }
 
-.features-desc {
+.features__desc {
   font-size: 13px;
   line-height: 1.15;
   color: var(--text-color);
   opacity: 0.4;
 }
 
-.features-img {
+.features__img {
   display: block;
   max-width: 100%;
   height: auto;
@@ -258,17 +258,17 @@ logo:focus {
   padding: 150px 100px;
 }
 
-.products-wrap {
+.products__wrap {
   padding: 0 16px;
 }
 
-.products-part {
+.products__part {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.products-title {
+.products__title {
   max-width: 704px;
   margin: 0 auto 75px;
   font-weight: 500;
@@ -277,30 +277,30 @@ logo:focus {
   text-align: center;
 }
 
-.products-list {
+.products__list {
   display: flex;
   justify-content: center;
   margin-bottom: 50px;
 }
 
-.products-item {
+.products__item {
   background-color: var(--primary-color);
   width: 392px;
   padding: 16px 16px 32px 16px;
   border-radius: 24px;
 }
 
-.products-item:not(:last-child) {
+.products__item:not(:last-child) {
   margin-right: 32px;
 }
 
-.products-img {
+.products__img {
   display: block;
   border-radius: 24px;
   margin-bottom: 32px;
 }
 
-.products-subtitle {
+.products__subtitle {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
@@ -308,7 +308,7 @@ logo:focus {
   color: var(--accent-color);
 }
 
-.products-type {
+.products__type {
   font-size: 13px;
   line-height: 1.15;
   letter-spacing: 0.03em;
@@ -325,7 +325,7 @@ logo:focus {
   border-collapse: collapse;
 }
 
-.products-properties {
+.products-table__properties {
   font-size: 14px;
   line-height: 1.21;
   letter-spacing: 0.03em;
@@ -333,7 +333,7 @@ logo:focus {
   opacity: 0.4;
 }
 
-.products-param {
+.products-table__param {
   text-align: end;
   font-size: 14px;
   line-height: 16.52px;
@@ -341,7 +341,7 @@ logo:focus {
   color: var(--text-color);
 }
 
-.products-btn {
+.products__btn {
   display: flex;
   margin-left: auto;
   margin-right: auto;
@@ -359,8 +359,8 @@ logo:focus {
     color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.products-btn:hover,
-.products-btn:focus {
+.products__btn:hover,
+.products__btn:focus {
   color: var(--accent-color);
   background-color: var(--primary-color);
 }
