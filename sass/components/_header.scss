@@ -1,0 +1,23 @@
+.header-wrap {
+    position: relative;
+  }
+  
+  .header {
+    position: absolute;
+    top: 32px;
+    padding: 0 50px;
+  }
+  
+  .header__container {
+    display: flex;
+    justify-content: space-between;
+    width: 1240px;
+    padding: 0 30px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: $primary-color;
+    border: 1px solid $primary-color;
+    border-radius: 8px;
+  }
+
+  
