@@ -1,0 +1,35 @@
+.navigation {
+  @extend %flex;
+  // display: flex;
+  // align-items: center;
+}
+
+.site-nav {
+  @extend %list;
+  display: flex;
+  margin: 4px 0px;
+
+  &__item:not(:last-child) {
+    margin-right: 4px;
+  }
+}
+
+.site-nav__link {
+  display: inline-block;
+  font-size: 9px;
+  line-height: 1;
+  background-color: $bgc-btn-header;
+  padding: 15px 25px 15px 24px;
+  letter-spacing: 0em;
+  border-radius: 8px;
+  min-width: 91px;
+  text-align: center;
+  border: 0;
+  cursor: pointer;
+  transition: background-color 250ms $cubic;
+
+  &:hover,
+  &:focus {
+    background-color: $accent-color;
+  }
+}
