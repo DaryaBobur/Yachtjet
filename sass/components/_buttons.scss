@@ -1,0 +1,41 @@
+.hero__btn {
+  @extend %button;
+
+  background-color: $accent-color;
+
+  &:hover,
+  &:focus {
+    color: $accent-color;
+    background-color: $primary-color;
+  }
+}
+
+.products__btn {
+  @extend %button;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  letter-spacing: -0.02em;
+  border: 1px solid $btn-border-color;
+  background-color: transparent;
+
+  &:hover,
+  &:focus {
+    color: $accent-color;
+    background-color: $primary-color;
+  }
+}
+
+.form__btn {
+  @extend %button;
+  min-width: 194px;
+  margin-top: 50px;
+  background-color: $accent-color;
+  padding: 18px 75px;
+
+  &:hover,
+  &:focus {
+    color: $accent-color;
+    background-color: $primary-color;
+  }
+}
