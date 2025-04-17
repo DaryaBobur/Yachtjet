@@ -1,0 +1,22 @@
+.socials-list {
+    @extend %list;
+    display: flex;
+    align-items: center;
+  
+  
+  &__item:not(:last-child) {
+    margin-right: 8px;
+  }
+}
+  
+  .socials-list__link {
+    @extend %link;
+    fill: $accent-color;
+    transition: fill 250ms $cubic;
+  
+  
+  &:hover,
+  &:focus {
+    fill: $socials-btn-header;
+  }
+}
