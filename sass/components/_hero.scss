@@ -1,0 +1,29 @@
+.hero {
+  max-width: 1400px;
+  height: 800px;
+  padding: 235px 0 215px;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  background-image: url(../images/hero.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.hero__title {
+  max-width: 950px;
+  margin-right: auto;
+  margin-left: auto;
+  font-weight: 500;
+  font-size: 70px;
+  line-height: 1;
+  margin-bottom: 24px;
+}
+
+.hero__description {
+  max-width: 575px;
+  margin: 0 auto 48px;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 1.38;
+}
