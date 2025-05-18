@@ -181,7 +181,7 @@ ul {
   margin-right: auto;
   margin-left: auto;
   text-align: center;
-  background-image: url(../images/hero.jpg);
+  background-image: linear-gradient(to right, rgba(17, 19, 31, 0.8), rgba(17, 19, 31, 0.314468), rgba(17, 19, 31, 0)), url(../images/hero.jpg);
   background-position: center;
   background-size: cover;
 }
