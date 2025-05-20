@@ -5,12 +5,17 @@
   margin-right: auto;
   margin-left: auto;
   text-align: center;
-  background-image: linear-gradient(
-      $gradient-hero
-    ),
-    url(../images/hero.jpg);
+  background-image: linear-gradient($gradient-hero), url(../images/hero-img/hero-desktop.jpg);
   background-position: center;
   background-size: cover;
+}
+
+@media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .hero {
+    background-image: url('../images/hero-img/hero-desktop@2x.jpg');
+  }
 }
 
 .hero__title {
